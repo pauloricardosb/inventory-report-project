@@ -8,5 +8,28 @@
     "python.formatting.blackArgs": [
         "-l 79"
     ],
-    "python.formatting.provider": "black"
+    "python.formatting.provider": "black",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/.venv": true,
+        "**/.gitignore": true,
+        "**/.vscode": true,
+        "**/.github": true,
+        "**/.images": true,
+        "**/.trybe": true,
+        "**/.editorconfig": true,
+        "*.yml": true,
+        "*.sh": true,
+        "**/setup.py": true,
+        "setup.cfg": true,
+        "requirements.txt": true,
+        "pyproject.toml": true,
+        "dev-requirements.txt": true
+    },
+    "explorerExclude.backup": {}
 }
